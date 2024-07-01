@@ -17,9 +17,7 @@ header, main, footer {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    /* border-radius: 50%; */
+    box-shadow: 0 0 20px #000000;
 }
 
 ul {
@@ -36,6 +34,10 @@ li {
     margin-bottom: 5px;
 }
 
+li:first-child {
+    margin-top: 8px;
+}
+
 
 
 .links a {
@@ -50,5 +52,5 @@ li {
 .links a:hover {
     /* text-decoration: underline; */
     color: #000000;
-    font-size: larger;
+    font-size: large;
 }
